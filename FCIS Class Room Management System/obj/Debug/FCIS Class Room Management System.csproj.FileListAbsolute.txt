@@ -1,0 +1,128 @@
+E:\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.Form1.resources
+E:\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.LoginForm.resources
+E:\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.MainPage.resources
+E:\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.Properties.Resources.resources
+E:\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.RegisterForm.resources
+E:\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.csproj.GenerateResource.cache
+E:\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.csproj.CoreCompileInputs.cache
+E:\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.exe
+E:\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.pdb
+E:\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\FCIS Class Room Management System.exe.config
+E:\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\FCIS Class Room Management System.exe
+E:\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\FCIS Class Room Management System.pdb
+E:\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.testForm.resources
+E:\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.UserControl1.resources
+E:\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.csproj.CopyComplete
+E:\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.csprojAssemblyReference.cache
+E:\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.courseItem.resources
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\FCIS Class Room Management System.exe.config
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.exe
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.pdb
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\FCIS Class Room Management System.exe
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\FCIS Class Room Management System.pdb
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\Oracle.DataAccess.dll
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.courseItem.resources
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.Form1.resources
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.LoginForm.resources
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.MainPage.resources
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.Properties.Resources.resources
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.RegisterForm.resources
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.UserControl1.resources
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.csproj.GenerateResource.Cache
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.ViewCourses.resources
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.AddCourseForm.resources
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.ManageResourcesForm.resources
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.csprojResolveAssemblyReference.cache
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.AddResourceForm.resources
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.resourceItem.resources
+C:\Users\a\Downloads\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.ViewResourcesForm.resources
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\FCIS Class Room Management System.exe.config
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\FCIS Class Room Management System.exe
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\FCIS Class Room Management System.pdb
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.csprojAssemblyReference.cache
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.AddCourseForm.resources
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.AddResourceForm.resources
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.courseItem.resources
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.Form1.resources
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.LoginForm.resources
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.MainPage.resources
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.ManageResourcesForm.resources
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.Properties.Resources.resources
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.RegisterForm.resources
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.resourceItem.resources
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.ViewCourses.resources
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.UserControl1.resources
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.ViewResourcesForm.resources
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.csproj.GenerateResource.cache
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.csproj.CopyComplete
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.exe
+C:\Users\mahmo\OneDrive\Desktop\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.pdb
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\FCIS Class Room Management System.exe.config
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.exe
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.pdb
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\FCIS Class Room Management System.exe
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\FCIS Class Room Management System.pdb
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\Oracle.DataAccess.dll
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.AddCourseForm.resources
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.AddResourceForm.resources
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.courseItem.resources
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.Form1.resources
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.LoginForm.resources
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.MainPage.resources
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.ManageResourcesForm.resources
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.Properties.Resources.resources
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.RegisterForm.resources
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.resourceItem.resources
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.ViewCourses.resources
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.ViewResourcesForm.resources
+C:\Users\a\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.csproj.GenerateResource.Cache
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\FCIS Class Room Management System.exe.config
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\FCIS Class Room Management System.exe
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\FCIS Class Room Management System.pdb
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.csprojAssemblyReference.cache
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.AddCourseForm.resources
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.AddResourceForm.resources
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.courseItem.resources
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.Form1.resources
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.LoginForm.resources
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.MainPage.resources
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.ManageResourcesForm.resources
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.Properties.Resources.resources
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.RegisterForm.resources
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.resourceItem.resources
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.ViewCourses.resources
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.ViewResourcesForm.resources
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.csproj.GenerateResource.cache
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.csproj.CopyComplete
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.exe
+C:\Users\mahmo\OneDrive\Documents\GitHub\FCIS-Class-Room-Management-System\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.pdb
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\FCIS Class Room Management System.exe.config
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\FCIS Class Room Management System.exe
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\FCIS Class Room Management System.pdb
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\Oracle.DataAccess.dll
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.csprojResolveAssemblyReference.cache
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.AddCourseForm.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.AddResourceForm.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.InstCourseLayout.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.StartPage.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.LoginForm.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.InstMainPage.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.ManageResourcesForm.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.ProfileForm.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.Properties.Resources.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.RegisterForm.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.InstResLayout.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.StdCourseLayout.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.StdMainPage.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.InstViewCourses.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.StdResLayout.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.StdViewCourses.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.InstViewResourcesForm.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.StdViewRes.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.csproj.GenerateResource.Cache
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.exe
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS Class Room Management System.pdb
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.Report2Form.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.Report1Form.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.Report3Form.resources
+C:\Users\a\Documents\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\obj\Debug\FCIS_Class_Room_Management_System.Report4Form.resources
