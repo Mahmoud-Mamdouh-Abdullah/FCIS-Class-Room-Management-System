@@ -1,0 +1,413 @@
+--------------------------------------------------------
+--  File created - Thursday-April-16-2020   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Sequence COURSE_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "COURSE_SEQ"  MINVALUE 1 MAXVALUE 1000000 INCREMENT BY 1 START WITH 81 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence RESOURCEID_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "RESOURCEID_SEQ"  MINVALUE 1 MAXVALUE 1000000 INCREMENT BY 1 START WITH 101 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence USERID_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "USERID_SEQ"  MINVALUE 1 MAXVALUE 20000 INCREMENT BY 1 START WITH 61 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Table COURSE
+--------------------------------------------------------
+
+  CREATE TABLE "COURSE" 
+   (	"COURSE_ID" NUMBER(6,0), 
+	"C_NAME" VARCHAR2(100), 
+	"SUBJECT" VARCHAR2(200), 
+	"USER_ID" NUMBER(6,0), 
+	"USER_NAME" VARCHAR2(100)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table ENROLLIN
+--------------------------------------------------------
+
+  CREATE TABLE "ENROLLIN" 
+   (	"USER_ID" NUMBER(6,0), 
+	"COURSE_ID" NUMBER(6,0)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table RESOURCES
+--------------------------------------------------------
+
+  CREATE TABLE "RESOURCES" 
+   (	"RES_ID" NUMBER(6,0), 
+	"RESOURCE_NAME" VARCHAR2(100), 
+	"RESOURCE_LINK" VARCHAR2(100), 
+	"COURSE_ID" NUMBER(6,0)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table USERS
+--------------------------------------------------------
+
+  CREATE TABLE "USERS" 
+   (	"USER_ID" NUMBER(6,0), 
+	"USER_NAME" VARCHAR2(100), 
+	"USER_EMAIL" VARCHAR2(50), 
+	"USER_PASS" VARCHAR2(25), 
+	"GENDER" VARCHAR2(7), 
+	"USER_TYPE" NUMBER
+   ) ;
+
+---------------------------------------------------
+--   DATA FOR TABLE COURSE
+--   FILTER = none used
+---------------------------------------------------
+REM INSERTING into COURSE
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (41,'Statistics','SC',8,'Mahmoud Mounir');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (10,'Operating System','CS',5,'Ahmed Salah');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (11,'Logic Programming','Sc',7,'Marko Alfons');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (12,'System Analysis and Design','IS',10,'Nevin Atef');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (13,'Physics 1','General',9,'Mohamed Hassan');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (14,'Physics 2','General',9,'Mohamed Hassan');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (15,'Maths 4','General',9,'Mohamed Hassan');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (16,'OOP','CS',4,'Sally Saad');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (17,'Structure Programmin','General',4,'Sally Saad');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (18,'Ethics','General',1,'Yassmin Afify');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (19,'Information System','IS',1,'Yassmin Afify');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (20,'Data base','IS',6,'Huda Amin');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (21,'Software Engineering','IS',6,'Huda Amin');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (22,'Architecture','System',14,'Karim Emara');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (23,'Assembly','System',14,'Karim Emara');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (1,'Algorithm','CS',5,'Ahmed Salah');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (2,'Math3','SC',11,'Mohamed Marey');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (3,'Math1','General',10,'Nevin Atef');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (4,'Math2','SC',10,'Nevin Atef');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (5,'Probability','SC',8,'Mahmoud Mounir');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (6,'Logic Design','IS',12,'Manal Tantawy');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (7,'Electronics','System',12,'Manal Tantawy');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (8,'Automata','IS',13,'Bassant El-Bagoury');
+Insert into COURSE (COURSE_ID,C_NAME,SUBJECT,USER_ID,USER_NAME) values (9,'AI','SC',7,'Marko Alfons');
+
+---------------------------------------------------
+--   END DATA FOR TABLE COURSE
+---------------------------------------------------
+
+
+---------------------------------------------------
+--   DATA FOR TABLE ENROLLIN
+--   FILTER = none used
+---------------------------------------------------
+REM INSERTING into ENROLLIN
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (3,41);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (3,23);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (3,2);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (21,2);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (3,9);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (3,11);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (23,10);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (21,7);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (41,10);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (41,16);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (41,4);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (41,9);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (21,41);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (21,11);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (21,10);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (21,9);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (22,41);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (22,12);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (22,1);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (22,9);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (22,6);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (2,10);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (2,12);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (2,14);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (2,15);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (2,8);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (23,41);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (23,12);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (23,13);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (23,14);
+Insert into ENROLLIN (USER_ID,COURSE_ID) values (23,1);
+
+---------------------------------------------------
+--   END DATA FOR TABLE ENROLLIN
+---------------------------------------------------
+
+
+---------------------------------------------------
+--   DATA FOR TABLE RESOURCES
+--   FILTER = none used
+---------------------------------------------------
+REM INSERTING into RESOURCES
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (4,'Assignment 2','https://www.youtube.com/watch?v=rCNImsWUxZA',5);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (3,'Phase1','https://www.youtube.com/watch?v=rCNImsWUxZA',20);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (6,'Phase2','https://www.youtube.com/watch?v=rCNImsWUxZA',20);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (7,'Lab1','https://www.youtube.com/watch?v=rCNImsWUxZA',20);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (8,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',20);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (9,'Lab 4','https://www.youtube.com/watch?v=rCNImsWUxZA',20);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (10,'Lab 1','https://www.youtube.com/watch?v=rCNImsWUxZA',5);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (11,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',5);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (12,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',5);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (13,'Assignment 3','https://www.youtube.com/watch?v=rCNImsWUxZA',5);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (21,'Lab 1','https://www.youtube.com/watch?v=rCNImsWUxZA',1);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (22,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',1);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (23,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',1);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (24,'Lab 4','https://www.youtube.com/watch?v=rCNImsWUxZA',1);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (25,'Lab 1','https://www.youtube.com/watch?v=rCNImsWUxZA',2);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (26,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',2);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (27,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',2);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (28,'Lab 4','https://www.youtube.com/watch?v=rCNImsWUxZA',2);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (29,'Lab 1','https://www.youtube.com/watch?v=rCNImsWUxZA',3);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (30,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',3);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (31,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',3);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (32,'Lab 4','https://www.youtube.com/watch?v=rCNImsWUxZA',3);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (33,'Lab 1','https://www.youtube.com/watch?v=rCNImsWUxZA',4);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (34,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',4);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (35,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',4);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (36,'Lab 4','https://www.youtube.com/watch?v=rCNImsWUxZA',4);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (37,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',6);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (38,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',6);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (39,'Lab 4','https://www.youtube.com/watch?v=rCNImsWUxZA',6);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (40,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',7);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (41,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',7);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (42,'Lab 1','https://www.youtube.com/watch?v=rCNImsWUxZA',7);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (43,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',8);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (44,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',8);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (45,'Lab 4','https://www.youtube.com/watch?v=rCNImsWUxZA',8);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (46,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',9);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (47,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',9);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (48,'Lab 1','https://www.youtube.com/watch?v=rCNImsWUxZA',9);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (49,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',10);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (50,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',10);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (51,'Lab 4','https://www.youtube.com/watch?v=rCNImsWUxZA',10);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (52,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',11);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (53,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',11);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (54,'Lab 1','https://www.youtube.com/watch?v=rCNImsWUxZA',11);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (55,'Lab 4','https://www.youtube.com/watch?v=rCNImsWUxZA',12);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (56,'Lab 1','https://www.youtube.com/watch?v=rCNImsWUxZA',12);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (57,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',12);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (58,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',12);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (59,'Lab 1','https://www.youtube.com/watch?v=rCNImsWUxZA',13);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (60,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',13);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (61,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',13);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (62,'Lab 4','https://www.youtube.com/watch?v=rCNImsWUxZA',13);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (63,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',14);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (64,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',14);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (65,'Lab 1','https://www.youtube.com/watch?v=rCNImsWUxZA',14);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (66,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',15);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (67,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',15);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (68,'Lab 4','https://www.youtube.com/watch?v=rCNImsWUxZA',15);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (69,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',16);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (70,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',16);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (71,'Lab 1','https://www.youtube.com/watch?v=rCNImsWUxZA',16);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (72,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',17);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (73,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',17);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (74,'Lab 4','https://www.youtube.com/watch?v=rCNImsWUxZA',17);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (75,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',18);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (76,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',18);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (77,'Lab 1','https://www.youtube.com/watch?v=rCNImsWUxZA',18);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (78,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',19);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (79,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',19);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (80,'Lab 4','https://www.youtube.com/watch?v=rCNImsWUxZA',19);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (81,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',21);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (82,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',21);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (83,'Lab 1','https://www.youtube.com/watch?v=rCNImsWUxZA',21);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (84,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',22);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (85,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',22);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (86,'Lab 4','https://www.youtube.com/watch?v=rCNImsWUxZA',22);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (87,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',23);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (88,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',23);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (89,'Lab 1','https://www.youtube.com/watch?v=rCNImsWUxZA',23);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (2,'assginment 3','https://www.youtube.com/watch?v=rCNImsWUxZA',1);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (1,'Assignment 4','https://www.youtube.com/watch?v=rCNImsWUxZA',1);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (90,'Lab 2','https://www.youtube.com/watch?v=rCNImsWUxZA',41);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (5,'ProjectIdeas','https://www.youtube.com/watch?v=rCNImsWUxZA',41);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (91,'Lab 3','https://www.youtube.com/watch?v=rCNImsWUxZA',41);
+Insert into RESOURCES (RES_ID,RESOURCE_NAME,RESOURCE_LINK,COURSE_ID) values (92,'Lab 4','https://www.youtube.com/watch?v=rCNImsWUxZA',41);
+
+---------------------------------------------------
+--   END DATA FOR TABLE RESOURCES
+---------------------------------------------------
+
+
+---------------------------------------------------
+--   DATA FOR TABLE USERS
+--   FILTER = none used
+---------------------------------------------------
+REM INSERTING into USERS
+Insert into USERS (USER_ID,USER_NAME,USER_EMAIL,USER_PASS,GENDER,USER_TYPE) values (1,'Yassmin Afify','yassminafify@gmail.com','123','Female',1);
+Insert into USERS (USER_ID,USER_NAME,USER_EMAIL,USER_PASS,GENDER,USER_TYPE) values (4,'Sally Saad','sallysaad@gmail.com','123','Female',1);
+Insert into USERS (USER_ID,USER_NAME,USER_EMAIL,USER_PASS,GENDER,USER_TYPE) values (5,'Ahmed Salah','ahmedsalah@gmail.com','123','Male',1);
+Insert into USERS (USER_ID,USER_NAME,USER_EMAIL,USER_PASS,GENDER,USER_TYPE) values (6,'Huda Amin','hudaamin@gmail.com','123','Female',1);
+Insert into USERS (USER_ID,USER_NAME,USER_EMAIL,USER_PASS,GENDER,USER_TYPE) values (10,'Nevin Atef','nevinatef@gmail.com','123','Female',1);
+Insert into USERS (USER_ID,USER_NAME,USER_EMAIL,USER_PASS,GENDER,USER_TYPE) values (7,'Marco Alfons','marcoalfons@gmail.com','123','Male',1);
+Insert into USERS (USER_ID,USER_NAME,USER_EMAIL,USER_PASS,GENDER,USER_TYPE) values (8,'Mahmoud Mounir','mahmoudmounir@gmail.com','123','Male',1);
+Insert into USERS (USER_ID,USER_NAME,USER_EMAIL,USER_PASS,GENDER,USER_TYPE) values (9,'Mohamed Hassan','mohamedhassan@gmail.com','123','Male',1);
+Insert into USERS (USER_ID,USER_NAME,USER_EMAIL,USER_PASS,GENDER,USER_TYPE) values (11,'Mohamed Marey','mohamedmarey@gmail.com','123','Male',1);
+Insert into USERS (USER_ID,USER_NAME,USER_EMAIL,USER_PASS,GENDER,USER_TYPE) values (12,'Manal Tantawy','manaltantawy@gmail.com','123','Female',1);
+Insert into USERS (USER_ID,USER_NAME,USER_EMAIL,USER_PASS,GENDER,USER_TYPE) values (13,'Bassant El-Bagoury','bassantelbagoury@gmail.com','123','Female',1);
+Insert into USERS (USER_ID,USER_NAME,USER_EMAIL,USER_PASS,GENDER,USER_TYPE) values (14,'Karim Emara','karimemara@gmail.com','123','Male',1);
+Insert into USERS (USER_ID,USER_NAME,USER_EMAIL,USER_PASS,GENDER,USER_TYPE) values (21,'Mahmoud Mohamed Refaey','mahmoudrefaey73@gmail.com','123','Male',2);
+Insert into USERS (USER_ID,USER_NAME,USER_EMAIL,USER_PASS,GENDER,USER_TYPE) values (22,'Mohamed Ayman','mohamedayman@gmail.com','123','Male',2);
+Insert into USERS (USER_ID,USER_NAME,USER_EMAIL,USER_PASS,GENDER,USER_TYPE) values (2,'Mahmoud Youssef Mohamed','mahmoudjoe3@gmail.com','123','Male',2);
+Insert into USERS (USER_ID,USER_NAME,USER_EMAIL,USER_PASS,GENDER,USER_TYPE) values (41,'Nour El-Din Ahmed Saad','nourahmed@gmail.com','123','Male',2);
+Insert into USERS (USER_ID,USER_NAME,USER_EMAIL,USER_PASS,GENDER,USER_TYPE) values (3,'Mahmoud Mamdouh Abdullah','mahmoud.khalil1072@gmail.com','123','Male',2);
+Insert into USERS (USER_ID,USER_NAME,USER_EMAIL,USER_PASS,GENDER,USER_TYPE) values (23,'Mohamed Shafik Mohamed','mohamedalaa447447@gmail.com','123','Male',2);
+
+---------------------------------------------------
+--   END DATA FOR TABLE USERS
+---------------------------------------------------
+
+--------------------------------------------------------
+--  DDL for Procedure CHECKENROLLMENT
+--------------------------------------------------------
+set define off;
+
+  CREATE OR REPLACE PROCEDURE "CHECKENROLLMENT" (cours_id in NUMBER ,std_id in NUMBER , res out NUMBER)
+is   
+BEGIN
+SELECT count(*) into res from enrollin WHERE enrollin.user_id= std_id and enrollin.course_id= cours_id;
+END CheckEnrollment;
+
+/
+
+--------------------------------------------------------
+--  DDL for Procedure ENROLL
+--------------------------------------------------------
+set define off;
+
+  CREATE OR REPLACE PROCEDURE "ENROLL" (std_id IN NUMBER, course_id IN NUMBER)
+AS
+BEGIN
+  INSERT INTO ENROLLIN (ENROLLIN.USER_ID, ENROLLIN.COURSE_ID) VALUES (std_id, course_id);
+END ENROLL;
+
+/
+
+--------------------------------------------------------
+--  DDL for Procedure SELECTCOURSES
+--------------------------------------------------------
+set define off;
+
+  CREATE OR REPLACE PROCEDURE "SELECTCOURSES" (Cou out sys_refcursor)
+is
+BEGIN
+open Cou for SELECT *  from course;
+END selectCourses;
+
+/
+
+--------------------------------------------------------
+--  DDL for Procedure SELECTONECOURSE
+--------------------------------------------------------
+set define off;
+
+  CREATE OR REPLACE PROCEDURE "SELECTONECOURSE" (cours_id in NUMBER ,cid out sys_refcursor)
+is   
+BEGIN
+open cid for SELECT   *  FROM	course WHERE	course_id = cours_id;
+END selectOneCourse;
+
+/
+
+--------------------------------------------------------
+--  DDL for Procedure SELECTRESOURCES
+--------------------------------------------------------
+set define off;
+
+  CREATE OR REPLACE PROCEDURE "SELECTRESOURCES" (cours_ID in NUMBER, RES out sys_refcursor)
+is
+BEGIN
+open RES for SELECT *  from resources WHERE resources.COURSE_ID = cours_ID;
+END selectResources;
+
+/
+
+--------------------------------------------------------
+--  DDL for Procedure SELECTSTUDENTCOURSES
+--------------------------------------------------------
+set define off;
+
+  CREATE OR REPLACE PROCEDURE "SELECTSTUDENTCOURSES" (id in NUMBER , Cou out sys_refcursor)
+is
+BEGIN
+
+open Cou for select * from course 
+inner join  enrollin on enrollin.course_id=course.course_id
+where enrollin.user_id = id;
+END selectStudentCourses;
+
+/
+
+--------------------------------------------------------
+--  DDL for Procedure TAKELOGIN
+--------------------------------------------------------
+set define off;
+
+  CREATE OR REPLACE PROCEDURE "TAKELOGIN" ( UserName IN VARCHAR2 ,Password IN VARCHAR2 
+, Kind OUT NUMBER ,  CID out sys_refcursor)
+is
+find NUMBER:=0;
+BEGIN
+SELECT count(*) into find from Users WHERE Users.user_email= username;
+if(find =0) then
+kind := -1;
+elsif find > 0 then
+find:=0;
+SELECT count(*) 
+into find 
+from users 
+WHERE (Users.user_email = username) and (Users.user_pass= password);
+if(find =0) THEN
+kind := -2;
+elsif (find >0) then 
+kind :=1; 
+open cid for SELECT *  from Users WHERE Users.user_email= username and users.user_pass = password;
+end if;
+end if;
+END Takelogin;
+
+/
+
+--------------------------------------------------------
+--  DDL for Procedure UNENROLL
+--------------------------------------------------------
+set define off;
+
+  CREATE OR REPLACE PROCEDURE "UNENROLL" (cours_id IN NUMBER, std_id IN NUMBER)
+AS
+BEGIN
+  DELETE FROM ENROLLIN WHERE (ENROLLIN.course_id = cours_id AND ENROLLIN.user_id = std_id);
+END UNENROLL;
+
+/
+
+--------------------------------------------------------
+--  DDL for Procedure UPDATE_RES
+--------------------------------------------------------
+set define off;
+
+  CREATE OR REPLACE PROCEDURE "UPDATE_RES" (resID IN VARCHAR2, new_link IN VARCHAR2)
+AS
+BEGIN
+  UPDATE RESOURCES SET RESOURCES.RESOURCE_LINK = new_link WHERE RESOURCES.RES_ID = resID;
+END UPDATE_RES;
+
+/
+
+--------------------------------------------------------
+--  DDL for Procedure UPDATE_USER
+--------------------------------------------------------
+set define off;
+
+  CREATE OR REPLACE PROCEDURE "UPDATE_USER" (id IN NUMBER, new_name IN VARCHAR2, new_email IN VARCHAR2,new_pass IN VARCHAR2)
+AS
+BEGIN
+UPDATE USERS SET USERS.USER_NAME = new_name,
+                 USERS.USER_EMAIL = new_email,
+                 USERS.USER_PASS = new_pass WHERE USERS.user_id = id;
+END UPDATE_USER;
+
+/
+
